@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Data Update</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Real-time Data Update</h1>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Date Time</th>
+                <th>V-Code</th>
+                <th>Raw</th>
+                <th>Cadet</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
